@@ -14,7 +14,6 @@ ENV/
 env/
 
 # Environment and credentials
-.env
 *.env
 service_account_credentials.json
 credentials.json
@@ -22,7 +21,6 @@ token.json
 client_secret*.json
 
 # Editor-specific files
-.vscode/
 .idea/
 *.sublime-*
 *.swp
@@ -56,3 +54,5 @@ FORK_ANALYSIS.md
 MCP_LEARNINGS.md
 fork-review.html
 issue-triage.html
+config.bat
+node_modules
